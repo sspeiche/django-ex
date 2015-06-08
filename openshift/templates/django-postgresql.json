@@ -2,15 +2,15 @@
   "kind": "Template",
   "apiVersion": "v1beta3",
   "metadata": {
-    "name": "django-quickstart-source-postgresql",
+    "name": "django-postgresql-example",
     "annotations": {
-      "description": "Django application template that uses the Source build strategy and includes a PostgreSQL database server for storage.",
+      "description": "A simple Django application (PostgreSQL DB).",
       "tags": "instant-app,python,django,postgresql",
       "iconClass" : "icon-python"
     }
   },
   "labels": {
-    "template": "django-quickstart-source-postgresql"
+    "template": "django-postgresql-example"
   },
   "objects": [
     {
@@ -315,7 +315,7 @@
     {
       "name": "FRONTEND_ROUTE",
       "description": "The exposed hostname that will route to the frontend service",
-      "value": "django-frontend.apps"
+      "value": "django-postgresql-frontend.apps"
     },
     {
       "name": "DATABASE_SERVICE_NAME",

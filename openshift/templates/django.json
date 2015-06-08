@@ -2,15 +2,15 @@
   "kind": "Template",
   "apiVersion": "v1beta3",
   "metadata": {
-    "name": "django-quickstart-source",
+    "name": "django-example",
     "annotations": {
-      "description": "Django application template that uses the Source build strategy.",
+      "description": "A simple Django application (no DB).",
       "tags": "instant-app,python,django",
       "iconClass" : "icon-python"
     }
   },
   "labels": {
-    "template": "django-quickstart-source"
+    "template": "django-example"
   },
   "objects": [
     {
